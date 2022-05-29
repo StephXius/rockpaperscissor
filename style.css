@@ -1,0 +1,51 @@
+h1{
+    text-align:center;
+    font-size:45px;
+}
+
+img{
+    display:block;
+    width:50%;
+    margin:0 auto;
+}
+
+#paragraph1{
+    text-align:justify;
+    font-size:25px;
+}
+
+#paragraph2{
+    text-align:center;
+    font-size:25px;
+}
+
+.selections{
+    justify-content: center;
+    display: flex;
+}
+
+.selection{
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.results{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.result-score{
+    margin-left: .1rem;
+    color: #333;
+    font-size: 1rem;
+}
+

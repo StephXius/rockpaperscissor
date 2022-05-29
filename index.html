@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Link CSS here --><link href="style.css" rel="stylesheet"> 
+      
+    <!-- Link JQuery here -->  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    
+    <title>RockPaperScissors Game</title>
+</head>
+<body>
+    
+    <div class="container text-center">
+    
+        <h1> Rock Paper Scissors</h1>
+    
+          <p id="paragraph1">Welcome to RPS. Test your RPS skills against the computer and be the ultimate RPS Challenger. The game is basic. If your opponent has rock and you have paper, you are guranteed a win. If you paper and your opponent has scissors, you will lose. If you have paper and your opponent has paper as well then it's a draw. Now go out there and get as much wins as you can so you can be qualified as a god.</p>
+  
+          <img src="http://static1.squarespace.com/static/595543f6b11be1695b0fdb29/t/59555414cd0f68572370bb64/1498764324553/DFP-RockPaperScissors-Black.png?format=1000w">
+      
+            <p id="paragraph2">Please sumbit the choice below</p>
+    </div>
+
+    <div class="selections">
+        <button class="selection" data-selection="rock">Rock</button> 
+        <button class="selection" data-selection="paper">Paper</button>
+        <button class="selection" data-selection="scissors">Scissors</button>  
+    </div>
+
+    <div class="results">
+        <div>
+            You
+            <span class="result-score" data-your-score>0</span>
+        </div>
+        <div data-final-column>
+            Computer
+            <span class="result-score" data-computer-score>0</span>
+        </div>
+        <!-- <div class="result-selection winner">rock</div>
+        <div class ="result-selection">scissor</div> -->
+    </div>
+
+</body>
+</html>
